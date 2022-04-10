@@ -7,14 +7,41 @@ body {
     color: #0f141e;
 }
 
-.container {
-    max-width: 750px;
-    margin: auto;
+.btn {
+    background: #111;
+    padding: 15px 20px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 8px;
+    font-family: inherit;
 }
-img {
+
+.avatar {
+    width: 200px;
+    border-radius: 28px;
     margin-bottom: 15px;
-    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
     border-radius: 15px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    padding-top: 30px;
+}
+
+a {
+    color: #111;
+    text-decoration: none;
+}
+
+a:hover {
+    color:rgba(0, 0, 0, 0.25);
+}
+
+a:active {
+    color: blue;
 }
 
 .links, h4 {
