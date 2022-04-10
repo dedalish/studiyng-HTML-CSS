@@ -7,68 +7,88 @@
     <meta name="keywords" content="Кожамуратов Алишер, резюме, resume, Kozhamuratov Alisher">
     <meta name="description" content="Сайт с резюме Алишера Кожамуратова, первый опыт в верстке">
     <title>Document</title>
+    <link rel="stylesheet" href="../CSS/resume.css">
 </head>
 <body>
-    <img src="https://sun9-22.userapi.com/impf/EXl0W4gDCw3GtPEW83BqjTNf0Uy20oMOU17IRA/adMfGh-ntp8.jpg?size=2160x2160&quality=96&sign=862099fb3bf2b13b7c190cd50bd899a8&type=album" width="250" alt="картинка по html Алишер" >  
-    <h2>Алишер Кожамуратов</h2>
-    <p>Студент <strong>СГУГиТ</strong>, направление: <em>военная опитка</em>. 
-        <br>Свободное время уделяю изучению программирования.
-    <br>Дружелюбный, готов к работе в<strong> команде</strong></p>
-    <h4>Мои хобби:</h4>
-    <ol type="1">
-        <li>Программирование</li>
-        <li>Фитнес</li>
-        <li>Походы в горы</li>
-        <li>Аниме</li>
-    </ol>
-    <h4>Опыт работы:</h4>
-    <table width="385">
-        <thead>
-            <tr>
-                <th>Компания</th>
-                <th>Должность</th>
-                <th>Год</th>
-            </tr>
-        </thead>
-        <tbody>
-        <tr>
-            <td>Сгугит</td>
-            <td>Студент бакалавр</td>
-            <td>2017-2021</td>
-        </tr>
-          <tr>
-              <td>Добромир Нск</td>
-              <td>инженер конструктор</td>
-              <td>2021-2022</td>
-          </tr>
-          <tr>
-            <td>Сгугит</td>
-            <td>магистр военная оптика</td>
-            <td>2021-сейчас</td>
-        </tr>
-        <tr>
-            <td>Школа 21</td>
-            <td>Студент</td>
-            <td>2022-сейчас</td>
-        </tr>
-        </tbody>
-    </table>
-    <h4>Список соцсетей:</h4>
-    <p><a href="https://vk.com/lehakarasava" target="_blank">VK</a> | <a href="https://github.com/dedalish/dedalish" target="_blank">github</a> | <a href="https://novosibirsk.hh.ru/resume/6448a415ff09255f390039ed1f6e5a79317a4e" target="_blank">hh.ru</a></p>
-    <h4>Связь со мной:</h4>
-    <form action="">
-    <div>
-        <label for="text">Ваше имя</label>
-        <input type="text" id="text" placeholder="Введите имя">
+
+    <div class="container">
+        
+    <header id="header">
+        <img src="https://sun9-22.userapi.com/impf/EXl0W4gDCw3GtPEW83BqjTNf0Uy20oMOU17IRA/adMfGh-ntp8.jpg?size=2160x2160&quality=96&sign=862099fb3bf2b13b7c190cd50bd899a8&type=album" width="250" alt="картинка по html Алишер" >  
+    </header>
+        <section id="my_description">
+            <h2>Алишер Кожамуратов</h2>
+            <p>Студент <strong>СГУГиТ</strong>, направление: <em>военная опитка</em>. 
+            <br>Свободное время уделяю изучению программирования.
+            <br>Дружелюбный, готов к работе в<strong> команде</strong></p>
+        </section>
+
+    <div class="links">
+        <h4>Список соцсетей:</h4>
+        <a href="https://vk.com/lehakarasava" target="_blank">VK</a> | <a href="https://github.com/dedalish/dedalish" target="_blank">github</a> | <a href="https://novosibirsk.hh.ru/resume/6448a415ff09255f390039ed1f6e5a79317a4e" target="_blank">hh.ru</a>
     </div>
-    <div>
-        <label for="email">Ваш email</label>
-        <input type="email" id="email" placeholder="Введите email">
-    </div>
-    <div>
-        <label for="message">Ваше сообщение</label>
-        <br><textarea name="" id="" cols="24" rows="6" placeholder="Введите сообщение..."></textarea>
-    </div>
+
+        <section class="card bg-green" id="hobby">
+            <h4>Мои хобби:</h4>
+                <ol type="1">
+                    <li>Программирование</li>
+                    <li>Фитнес</li>
+                    <li>Походы в горы</li>
+                    <li>Аниме</li>
+                </ol>
+        </section>
+
+        <section class="card bg-pink" id="work">
+            <h4>Опыт работы:</h4>
+            <table width="550">
+                <thead>
+                    <tr>
+                        <th>Компания</th>
+                        <th>Должность</th>
+                        <th>Год</th>
+                    </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>Сгугит</td>
+                    <td>Студент бакалавр</td>
+                    <td>2017-2021</td>
+                </tr>
+                <tr>
+                    <td>Добромир Нск</td>
+                    <td>инженер конструктор</td>
+                    <td>2021-2022</td>
+                </tr>
+                <tr>
+                    <td>Сгугит</td>
+                    <td>магистр военная оптика</td>
+                    <td>2021-сейчас</td>
+                </tr>
+                <tr>
+                    <td>Школа 21</td>
+                    <td>Студент</td>
+                    <td>2022-сейчас</td>
+                </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <h4>Связь со мной:</h4>
+        <form action="">
+        <div>
+            <label for="text">Ваше имя</label>
+            <input type="text" id="text" placeholder="Введите имя">
+        </div>
+        <div>
+            <label for="email">Ваш email</label>
+            <input type="email" id="email" placeholder="Введите email">
+        </div>
+        <div>
+            <label for="message">Ваше сообщение</label>
+            <br><textarea name="" id="" cols="24" rows="6" placeholder="Введите сообщение..."></textarea>
+        </div>
+</div>
+
     <input type="submit" value="Отправить!">
 </form>
 </body>

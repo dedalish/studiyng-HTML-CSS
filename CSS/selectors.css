@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+
+/*Tag Name*/    
+body {
+    background-color: #eee;
+}
+
+#my_description {
+    font-family: italic, sans-serif;
+    font-weight: 300;
+    color: #86898f;
+}
+
+/* Class */
+.card {
+    padding: 10px;
+    background: #fff;
+    /* margin-bottom: 10px; */
+}
+
+.card p {
+    font-size: 14px;
+}
+
+.html {
+    background: #f1f1f1;
+    color: #0f141e;
+}
+
+.css {
+    background: #e55f28;
+    color: #000    ;
+}
+
+/* id */
+#header {
+background: #ddd;
+padding: 10px;
+}
+
+#header, .card {
+    margin-bottom: 10px;
+}
+
